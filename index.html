@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Verificador de idade</title>
+  </head>
+  <body>
+    <main>
+      <h1>Verificador de idade</h1>
+      <div id="container">
+        <form method="get">
+          <div>
+            <label for="yearOfBirth">Ano de Nascimento: </label>
+            <input
+              type="number"
+              name="Ano de nascimento"
+              id="yearOfBirth"
+              min="1"
+              max="120"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="gender">Sexo :</label>
+            <input
+              type="radio"
+              name="genero"
+              value="man"
+              id="genderMasculine"
+              checked
+            />
+            <label for="genderMasculine">Masculino</label>
+
+            <input type="radio" name="genero" value="woman" id="genderFemale" />
+            <label for="genderFemale">Feminino</label>
+          </div>
+
+          <input type="submit" value="Verificar" id="checkAge" />
+        </form>
+        <div id="ageGender"></div>
+      </div>
+      <p>@GustavoGuanabara</p>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

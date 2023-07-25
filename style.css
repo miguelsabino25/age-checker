@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#container {
+  width: 500px;
+  margin: auto;
+  background-color: white;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  padding: 25px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+#ageGender {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+p:nth-last-child(1) {
+  color: white;
+  text-align: center;
+}
